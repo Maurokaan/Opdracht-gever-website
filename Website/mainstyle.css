@@ -16,8 +16,17 @@ body{
 
 #contentHeader{
 	width: 100%;
-	background: green;
-	width: 100%;
+	background: white;
+	border-left: 4px #BB0A21 solid;
+	height: 400px;
+	border-radius: 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
+	margin-top: 100%;
+	overflow-x: scroll;
+
+
 }
+
+
+
