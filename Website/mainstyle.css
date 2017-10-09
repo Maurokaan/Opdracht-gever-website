@@ -1,0 +1,23 @@
+
+body{
+	
+}
+
+
+#nav{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: ;
+	position: fixed;
+	width: 100%;
+
+}
+
+
+#contentHeader{
+	width: 100%;
+	background: green;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
