@@ -15,15 +15,16 @@ body{
 
 
 #contentHeader{
-	width: 100%;
+	width: 350px;
 	background: white;
 	border-left: 4px #BB0A21 solid;
-	height: 400px;
+	height: 440px;
 	border-radius: 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	margin-top: 100%;
+	margin-top: 160px;
 	overflow-x: scroll;
+	position: fixed;
 
 
 }
