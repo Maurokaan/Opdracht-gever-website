@@ -1,6 +1,6 @@
 
 body{
-	
+
 }
 
 
@@ -29,5 +29,17 @@ body{
 
 }
 
+
+footer{
+	width: 100%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	position: fixed;
+	bottom: 0px;
+	z-index: 200;
+	color: white;
+	text-shadow: 0px 2px 0px black;
+
+}
 
 
