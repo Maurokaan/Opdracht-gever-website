@@ -1,0 +1,244 @@
+body{
+	background: url(links/afbeelding.jpg);
+	background-position: ;
+	background-size: cover;
+	margin: 0; height: 100%; overflow: hidden
+
+
+}
+
+#navbarBody{
+	background: ;
+	padding-top: 15px;
+	padding-bottom: 15px;
+
+}
+
+#talen{
+	float: right;
+}
+
+.taalBtn{
+	float: left;
+	background: none;
+	border-style: none;
+}
+
+#bodyContainer{
+	background: ;
+	padding-top: 10px;
+	margin-top: 100px;
+	
+
+}
+
+#content{
+	height: 450px;
+	background: white;
+	border-radius: 10px;
+	border-left: 5px #BB0A21 solid;
+	overflow-x: scroll;
+	padding-top: 10px;
+
+
+}
+
+#slider{
+	background: url(http://thechurchontheway.org/wp-content/uploads/2016/05/placeholder1.png);
+	background-size: cover;
+	height: 200px;
+	background-position: center;
+}
+
+#navbar{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: ;
+	float: left;
+	width: 100%;
+}
+
+#navbar-buttons{
+	height: 35px;
+	background: ;
+	float: right;
+	width: 90%;
+}
+
+.line{
+	padding-bottom: 1px #bb0a21 solid;
+}
+
+.nav-button{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background: #BB0A21;
+	float: right;
+	border-radius: 5px;
+	text-decoration: none;
+	
+	border-bottom: 1px #202020 solid;
+	color: white;
+	transition: all 0.2s;
+}
+
+.nav-btn{
+	background: none;
+	border-style: none;
+	float: right;
+}
+
+#more-imgs{
+	width: 100%;
+	height: 200px;
+	background: green;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+
+.nav-btn:hover .nav-button{
+	border-bottom: 3px #202020 solid;
+	
+
+}
+
+
+
+#info{
+	padding-top: 20px;
+	padding-bottom: 30px;
+	float: left;
+	width: 100%;
+	font-family: 'Lato', sans-serif;
+}
+
+#projecten{
+	padding-top: 10px;
+	padding-bottom: 20px;
+	background: ;
+	float: left;
+	width: 100%;
+}
+
+.projecten-werk{
+	padding-bottom: 10px;
+	padding-top: 10px;
+	background: ;
+}
+
+.projecten-image{
+	height: 200px;
+	background: url(http://thechurchontheway.org/wp-content/uploads/2016/05/placeholder1.png);
+	background-position: center;
+	background-size: 100%;
+	transition: all 0.2s ease;
+
+}
+
+
+.projecten-image:hover{
+	background-size: 120%;
+}
+
+.projecten-description{
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+}
+
+
+#moreBtn{
+	border-style: none;
+	background: white;
+	border-radius: 5px;
+	padding: 10px;
+	border: 2px #BB0A21 solid ;
+	transition: all 0.2s;
+	color: #BB0A21;
+}
+
+#moreBtn:hover{
+	background: #BB0A21;
+	color: white;
+}
+
+#navbarMobile{
+	display: none;
+}
+
+#inputCode{
+	width: 300px;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+
+}
+
+textarea, input, button { outline: none; }
+
+#codeBtn{
+	padding-left: 10px;
+	padding-right: 10px;
+	height: 40px;
+	border-style: none;
+	background: white;
+	border-radius: 5px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 10px;
+	border-bottom: 3px #BB0A21 solid;
+	transition: all 0.2s;
+}
+
+.login{
+	margin-top: 100px;
+}
+
+#codeBtn:hover{
+	background: #BB0A21;
+	color: white;
+}
+
+#loading{
+	text-align: center;
+	display: none;
+	margin-top: 20px;
+	color: white;
+
+}
+
+
+
+
+
+@media screen and (max-width: 480px) {
+    #navbarBody{
+    	display: none;
+    }
+
+    #content{
+    	margin-top: -100px;
+    	height: 600px;
+    	border-left: white 0px solid;
+    }
+    body{
+    	background: none;
+    }
+
+
+}
+
+
+@media screen and (min-width: 480px) {
+    .navbarMobile{
+    	display: none; ;
+    }
+
+    #content{
+    	height: 450px;
+    	margin-top: -30px;
+    }
+}
+
